@@ -196,6 +196,15 @@
       margin-bottom: 15px;
     }
 
+
+  .card-img {
+    width: 100%;
+    height: 140px;             /* altura fixa pequena */
+    object-fit: cover;         /* mantém proporção e corta excesso */
+    display: block;
+  }
+
+
     .btn-repo {
       margin-top: 25px;
       color: var(--accent);
@@ -254,6 +263,7 @@
       <div class="logo">Σ </div>
       <nav class="nav-links">
         <a href="#sobre">Sobre</a>
+        <a href="#competencias">Habilidades</a> 
         <a href="#projetos">Projetos</a>
         <a href="#contato">Contato</a>
       </nav>
@@ -266,8 +276,7 @@
       <div class="hero-text">
         <span class="section-label"> DATA ANALYST // BUSINESS INTELLIGENCE </span>
         <h1>MENOS ACHISMO<br>MAIS DADOS</h1>
-        <p>Especialista em transformar dados em vantagem competitiva por meio de Estatística, análise e BI, evoluindo continuamente com Ciência de Dados para potencializar resultados no negócio.
-
+        <p>Especialista em transformar dados em vantagem competitiva, conectando Estatística, Análise e BI à geração de valor para o negócio.
           
         
         </p>
@@ -307,10 +316,14 @@
   </h2>
 
   <ul class="skills-list">
-    <li>Automatizo processos para escalar produtividade e liberar tempo para o que realmente importa.</li>
-    <li>Otimizo operações com foco em eficiência, performance e resultado.</li>
+    <li>Automatizo processos e fluxos de dados para ganho de escala e eficiência. <li>
+    <li>Otimizo operações com foco em eficiência, performance e resultado.</li>  
     <li>Transformo dados complexos em insights claros, acionáveis e estratégicos para o negócio.</li>
-    <li>Atuo com pensamento analítico orientado a resultados, conectando dados à tomada de decisão.</li>
+    <li>Estruturo e modelo dados (ETL, SQL) garantindo qualidade e confiabilidade. <li>
+    <li>Desenvolvo dashboards com foco em storytelling e experiência do usuário (UI/UX). <li>
+    <li>Defino e acompanho KPIs alinhados aos objetivos do negócio. 
+  
+      
   </ul>
 </section>
 
@@ -361,31 +374,42 @@
       </div>
 
       <div class="grid">
-        <div class="card">
-          <div>
-            <h3>Funil iFood</h3>
-            <p>Modelagem preditiva e análise estatística para otimização de fluxos transacionais e retenção.</p>
-            <div class="tag-list"><span class="tag">PYTHON</span><span class="tag">SCIKIT-LEARN</span><span class="tag">ETL</span></div>
-          </div>
-          <a href="https://github.com/Thiago-Dumont" target="_blank" class="btn-repo"><i class="fab fa-github"></i> SOURCE_CODE</a>
-        </div>
+  
+  
+<div class="card">
+ <img src="https://raw.githubusercontent.com/Adriele-Cerqueira/PREVENDO-TURNOVER_IBM-HR/main/Capa_Turnover.png" class="card-img">
+
+  <div>
+    <h3>MODELO PREDITIVO TURNOVER</h3>
+    <p>Projeto de Previsão de Turnover de Funcionários: Um projeto de aprendizado de máquina que prevê a perda de funcionários usando dados da IBM HR Analytics, fornecendo insights sobre os principais fatores por trás da rotatividade de funcionários.</p>
+    <div class="tag-list">
+      <span class="tag">PYTHON</span>
+      <span class="tag">RH</span>
+      <span class="tag">MACHINE LEARNING<span>
+    </div>
+  </div>
+
+  <a href="https://github.com/Adriele-Cerqueira/TESTE-AB-EM-MARKETING/blob/main/Capa_AB.png" target="_blank"  class="btn-repo"><i class="fab fa-github"></i> 
+    ACESSAR
+  </a>
+</div>
+
 
         <div class="card">
+<img src="https://raw.githubusercontent.com/Adriele-Cerqueira/TESTE-AB-EM-MARKETING/main/Capa_AB.png" class="card-img">
+
+
           <div>
-            <h3>Observatório MG</h3>
-            <p>RPA de alta performance para monitoramento de editais e estruturação de dados públicos.</p>
-            <div class="tag-list"><span class="tag">RPA</span><span class="tag">SQL</span><span class="tag">SCRAPING</span></div>
+            <h3>TESTE AB</h3>
+            <p>Este projeto teve como objetivo avaliar a eficácia de campanhas publicitárias digitais por meio de um experimento de Teste A/B, comparando as taxas de conversão entre dois grupos de usuários.</p>
+            <div class="tag-list"><span class="tag">TESET AB</span><span class="tag">MARKETING</span><span class="tag">PYTHON</span></div>
           </div>
-          <a href="https://github.com/Thiago-Dumont" target="_blank" class="btn-repo"><i class="fab fa-github"></i> SOURCE_CODE</a>
+          <a href="https://github.com/Adriele-Cerqueira/TESTE-AB-EM-MARKETING" target="_blank" class="btn-repo"><i class="fab fa-github"></i> ACESSAR</a>
         </div>
 
-        <div class="card">
-          <h3>Structural Parser</h3>
-          <p>Automação inteligente para extração e conversão de dados não estruturados (PDF) em insights.</p>
-          <div class="tag-list"><span class="tag">REGEX</span><span class="tag">PYTHON</span><span class="tag">DATA_CLEANING</span></div>
-          <a href="https://github.com/Thiago-Dumont" target="_blank" class="btn-repo"><i class="fab fa-github"></i> SOURCE_CODE</a>
-        </div>
-      </div>
+
+      
+      
     </section>
 
 <hr style="border: none; border-top: 1px solid rgba(148, 163, 184, 0.2); margin: 60px 0;">
